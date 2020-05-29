@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'Intellipaat';
+  fname:string="Harry";
+  lname:string="potter";
+  getFull():string {
+    return this.fname+" "+this.lname;
+  }
 }
